@@ -13,6 +13,7 @@ Best is to register a so called main callback, which checks for dependencies for
 import {Dispatcher} from "flux";
 import "./lib/dispatcherAsync";
 
+const dispatcher = new Dispatcher();
 //see code example https://facebook.github.io/flux/docs/dispatcher/ for more information.
 
 //general dispatcher needs to be registered first
@@ -25,7 +26,7 @@ dispatcher.register(function (payload) {
 	}
 });
 
-Client.dispatchToken = flightDispatcher.register(function(payload) {
+Client.dispatchToken = dispatcher.register(function(payload) {
   if (payload.actionType === 'FetchClient') {
     return new Promise((resolve, reject) => {
         //do some logic and resolve
