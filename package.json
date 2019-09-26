@@ -1,6 +1,6 @@
 {
   "name": "flux-dispatcherasync",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Async flux dispatcher with promises",
   "main": "lib/dispatcherAsync.js",
   "scripts": {
