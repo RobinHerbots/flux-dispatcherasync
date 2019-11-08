@@ -3,7 +3,7 @@
  * https://github.com/RobinHerbots/flux-dispatcherasync#readme
  * Copyright (c) 2010 - 2019 
  * Licensed under the MIT license
- * Version: 0.0.3
+ * Version: 0.0.4
  */
 !function webpackUniversalModuleDefinition(root, factory) {
     if ("object" == typeof exports && "object" == typeof module) module.exports = factory(require("underscore")); else if ("function" == typeof define && define.amd) define([ "underscore" ], factory); else {

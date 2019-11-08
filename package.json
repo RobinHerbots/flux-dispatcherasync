@@ -1,8 +1,8 @@
 {
   "name": "flux-dispatcherasync",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Async flux dispatcher with promises",
-  "main": "lib/dispatcherAsync.js",
+  "main": "dist/dispatcherAsync.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
